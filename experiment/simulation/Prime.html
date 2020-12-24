@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Loop</title>
+    <title>Simulator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery.min.js"></script>
@@ -362,7 +362,7 @@
     }
 </style>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="60" style="font-family: Ubuntu;">
+<body style="font-family: Ubuntu;">
     <div class="top">
         <nav class="navbar navbar-default navbar-fixed-top" style=" background-color:#F05054; border:0px; ">
             <div class="container">
@@ -375,68 +375,58 @@
       </button>
                 </div>
                 <ul class="nav navbar-nav navbar-left">
-                    <h1 style="font-size: 44px; color: white; ">Analysis of Factorial</h1>
+                    <h1 style="font-size: 44px; color: white;">Analysis of Prime no.</h1>
                 </ul>
-
                 <div class="collapse navbar-collapse" id="collapse-1">
                     <ul class="nav navbar-nav navbar-right" id="bs">
-
-
-
+                        <li><a href="./index.html" style="font-family:  Ubuntu;">Back</a></li>
                     </ul>
                 </div>
-
-
             </div>
-
         </nav>
-
-    </div>
-    <div class="side" style="float: right;margin-top: 8em;">
-        <a href="Fibonacci.html" style="font-family:  Ubuntu;"><button class="btn btn-primary">Fibonacci Series</button></a>
-        <a href="Prime.html" style="font-family:  Ubuntu;"><button class="btn btn-primary">Prime numbers</button></a>
     </div>
     <div class="container-fluid">
         <div class="straight">
             <div class="block1" style="margin-top: 9em;">
-                <div class="header1">Problem?</div><br>><br><br>
+                <div class="header1">Demmonstrate</div><br><br><br>
                 <ul>
-                    <label><li>To find the Factorial of a Number.</li></label>
+                    <label>To find the prime numbers in a Range.</label>
                 </ul>
+                <br><br>
                 <div class="tn">
-                    <input type="text" class="form-control input-sm" id="input_1" placeholder="Enter the Number :"><br>
-                    <button class="btn btn-default" id="btn_1">Submit</button><br>
-                    <button class="btn btn-primary" id="btn_2">Start</button>
+                    <input type="text" class="form-control input-sm" id="input_1" placeholder="Enter the Start Range"><br>
+                    <input type="text" class="form-control input-sm" id="input_2" placeholder="Enter the End Range"><br><br><br>
+                    <button class="btn btn-default" id="btn_1">Start</button><br>
+                    <button class="btn btn-primary" id="btn_2">Next</button>
                     <button class="btn btn-primary" id="btn_3">Reset</button>
                 </div>
             </div>
         </div>
         <div class="block3">
-            <div class="header2">Step Execute</div><br><br>
+            <div class="header2">Step Execute</div>
             <div class="pre">
-                <div class="step1" id="step" style="display:none;text-align:left;"><b>
-
-		<p id="1">for num in range(start, end + 1):</p>
-		<p id="2" style="padding-left:10px;">  factorial = 1</p>
-		<p id="3" style="padding-left:20px;">if num < 0:</p>
-		<p id="4"style="padding-left:30px;">  print("Factorial for negative numbers does not exist!!!")</p>
-		<p id="5" style="padding-left:20px;">elif num == 0:</p>
-		<p id="6" style="padding-left:30px;">print("The factorial of the Number is :")</p>
-		<p id="7" style="padding-left:20px;">else:</p>
-		<p id="8" style="padding-left:30px;">for i in range(1,num + 1):</p>
-		<p id="9" style="padding-left:40px;">factorial = factorial*i</p>
-		<p id="10" style="padding-left:30px;">print(The Factorial of the Number is :,num)</p></b>
+                <div class="step1" id="step" style="display:none;text-align:left;">
+                    <b>
+<p id="1">for num in range(start, end + 1):</p>
+		<p id="2" style="padding-left:10px;">  if num > 1:</p>
+		<p id="3" style="padding-left:20px;">for i in range(2, int(num/2)):</p>
+		<p id="4"style="padding-left:30px;">  if (num % i) == 0:</p>
+		<p id="5" style="padding-left:40px;">break</p>
+		<p id="6" style="padding-left:30px;">else:</p>
+		<p id="7" style="padding-left:40px;">print(" The prime numbers in range {a} and {b} are :".format(a=start,b=end))</p>
+		<p id="8" style="padding-left:40px;">print(num)</p>
+</b>
                 </div>
             </div>
         </div>
         <div class="block4">
             <div class="header3">Result</div>
-            <p id="res_1" style="display:none;">The Factorial of the Number is :</p>
+            <p id="res_1"></p>
             <p id="res_2"></p>
         </div>
     </div>
     <br><br>
-    <script src="factorial.js"></script>
+    <script src="sim_arith.js"></script>
 </body>
 
 </html>
