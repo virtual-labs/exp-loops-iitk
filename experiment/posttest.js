@@ -119,8 +119,8 @@
            d: "d c b a"                   ///// Write the option 4 inside double quotes
          },
          correctAnswer: "d"                ///// Write the correct option inside double quotes
-       }                ///// Write the correct option inside double quotes
-       }                               ///// To add more questions, copy the section below 
+       },               ///// Write the correct option inside double quotes
+                                      ///// To add more questions, copy the section below 
                                                             ///// this line
   
   
