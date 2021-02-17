@@ -1,4 +1,3 @@
-### <b>Theory</b>
 The execution of programming language codes is done by a compiler. A compiler is given a set of codes or rather a sequence of codes that perform a desired task. The task may or may not be repetitive but the compiler is smart enough to process it.Such repetitive code is known as a 'loop'.<br>
 Loop is a sequential set of instructions which gets executed multiple times to reduce minimize the repetition of code.<br>
 In Python, we have two types of loops :<br>
