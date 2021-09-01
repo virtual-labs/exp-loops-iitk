@@ -32,8 +32,8 @@ Program:<br><br>
 Output:<br><br>
 hello geek<br>
 hello geek<br>
-..........<br>
-Nested loops:<br>
+..........<br><br>
+Nested loops :<br><br>
 Program:<br><br>
 <img src="images/img4.PNG"><br><br>
 Output:<br><br>
