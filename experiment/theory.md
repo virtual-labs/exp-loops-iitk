@@ -4,11 +4,11 @@ In Python, we have two types of loops :<br>
 i. for loop<br>
 ii. while loop<br>
 
-To understand the functioning and flow of a loop, you must get familiar with the term 'block'. A block is the smallest unit in a loop which performs one particular task.<br>
-<b>'For' loop :</b><br>
-Syntax : for object in range(initialization, limit, update ):<br>
-statements<br>
-The above given syntax is of for loop where we put the object name after 'for' and the limit inside 'range( )'.<br>
+To understand the functioning and flow of a loop, you must get familiar with the term 'block'. A block is the smallest unit in a loop which performs one particular task.<br><br>
+<b>'For' loop :</b><br><br>
+Syntax : <br><br>for object in range(initialization, limit, update ):<br>
+statements<br><br>
+The above given syntax is of for loop where we put the object name after 'for' and the limit inside 'range( )'.<br><br>
 Program:<br>
 <img src="images/img3.PNG"><br><br>
 Output : <br>
@@ -18,16 +18,22 @@ Output : <br>
 3<br>
 4<br><br>
 <b>'While' loop :</b><br><br>
-Syntax : while expression:<br>
-statements<br>
+Syntax : <br><br>while expression:<br>
+statements<br><br>
 The above statement is for while loop, where the testing condition is placed after while and it is followed by the statements placed in the loop body.<br>
 Program:<br><br>
 <img src="images/img1.PNG"><br><br>
 Output:<br><br>
+Hello people<br>
+Hello people<br>
+Hello people<br><br>
 Program:<br><br>
 <img src="images/img2.PNG"><br><br>
 Output:<br><br>
-Nested loops:
+hello geek<br>
+hello geek<br>
+..........<br>
+Nested loops:<br>
 Program:<br><br>
 <img src="images/img4.PNG"><br><br>
 Output:<br><br>
