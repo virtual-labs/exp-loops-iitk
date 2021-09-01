@@ -1,16 +1,39 @@
 [{
-	"question": "1.This is a sample question:",
+	"question": "1.What data type does the range() function generate?:",
 	"answers": {
-		"a": "This is a sample answer A",
-		"b": "This is a sample answer B"
+		"a": "int",
+		"b": "float",
+		"c": "list",
+		"d": "String"
 	},
-	"correctAnswer": "a"
+	"correctAnswer": "c"
 }, {
-	"question": "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",
+	"question": "Which do we access key or the value while looping through a dictionary?",
 	"answers": {
-		"a": "<img src='images/1b.png'>",
-		"b": "<img src='images/1a.png'>",
-		"c": "<img src='images/1c.PNG'>"
+		"a": "key",
+		"b": "key and value in tuple format",
+		"c": "key and value in list format",
+		"d": "value"
+	},
+	"correctAnswer": "d"
+},
+{
+	"question": "Which of the following function returns a randomly selected element from range?",
+	"answers": {
+		"a": "choice(seq)",
+		"b": "randrange([start,stop,step])",
+		"c": "random()",
+		"d": "seed()"
+	},
+	"correctAnswer": "b"
+},
+{
+	"question": "Which of the following keyword is a valid placeholder for body of the function ?",
+	"answers": {
+		"a": "continue",
+		"b": "break",
+		"c": "pass",
+		"d": "body"
 	},
 	"correctAnswer": "c"
 }]

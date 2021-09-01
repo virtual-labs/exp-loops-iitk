@@ -1,16 +1,29 @@
 [{
-	"question": "1.This is a sample question:",
+	"question": "1.Which of the following functions will not result in an error when no arguments are passed to it?",
 	"answers": {
-		"a": "This is a sample answer A",
-		"b": "This is a sample answer B"
+		"a": "any()",
+		"b": "float()",
+		"c": "max()",
+		"d": "divmod()"
 	},
-	"correctAnswer": "a"
+	"correctAnswer": "b"
 }, {
-	"question": "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",
+	"question": "2.What will be the output of the following code?\nfor i in ''.join(reversed(list('virtual'))):\n\tprint(i)",
 	"answers": {
-		"a": "<img src='images/1b.png'>",
-		"b": "<img src='images/1a.png'>",
-		"c": "<img src='images/1c.PNG'>"
+		"a": "v i r t u a l",
+		"b": "Error",
+		"c": "l a u t r i v",
+		"d": "None of these"
 	},
 	"correctAnswer": "c"
+},
+{
+	"question": "3.What is the output of the following?\nfor i in [a, b, c, d][::-1]:\n\tprint (i)",
+	"answers": {
+		"a": "a b c d",
+		"b": "Error",
+		"c": "None",
+		"d": "d c b a"
+	},
+	"correctAnswer": "d"
 }]
