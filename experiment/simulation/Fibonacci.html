@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Loop</title>
+    <title>Functions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery.min.js"></script>
@@ -362,49 +362,38 @@
     }
 </style>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="60" style="font-family: Ubuntu;">
+<body style="font-family: Ubuntu;">
     <div class="top">
         <nav class="navbar navbar-default navbar-fixed-top" style=" background-color:#F05054; border:0px; ">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false">
       	    <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar" style="background-color: white;"></span>
-        <span class="icon-bar" style="background-color: white;"></span>
-        <span class="icon-bar" style="background-color: white;"></span>
+        <span class="icon-bar" style="background-color: #77BB41"></span>
+        <span class="icon-bar" style="background-color: #77BB41"></span>
+        <span class="icon-bar" style="background-color: #77BB41"></span>
       </button>
                 </div>
                 <ul class="nav navbar-nav navbar-left">
-                    <h1 style="font-size: 44px; color: white; ">Analysis of Factorial</h1>
+                    <h1 style="font-size: 44px; color: white;">Analysis of Fibonacci Series</h1>
                 </ul>
-
                 <div class="collapse navbar-collapse" id="collapse-1">
                     <ul class="nav navbar-nav navbar-right" id="bs">
-
-
-
+                        <li><a href="./index.html" style="font-family:  Ubuntu;">Back</a></li>
                     </ul>
                 </div>
-
-
             </div>
-
         </nav>
-
-    </div>
-    <div class="side" style="float: right;margin-top: 8em;">
-        <a href="Fibonacci.html" style="font-family:  Ubuntu;"><button class="btn btn-primary">Fibonacci Series</button></a>
-        <a href="Prime.html" style="font-family:  Ubuntu;"><button class="btn btn-primary">Prime numbers</button></a>
     </div>
     <div class="container-fluid">
         <div class="straight">
             <div class="block1" style="margin-top: 9em;">
-                <div class="header1">Problem?</div><br>><br><br>
+                <div class="header1">Problem?</div><br><br><br>
                 <ul>
-                    <label><li>To find the Factorial of a Number.</li></label>
+                    <label><li>To find the Fibonacci Series.</li></label>
                 </ul>
                 <div class="tn">
-                    <input type="text" class="form-control input-sm" id="input_1" placeholder="Enter the Number :"><br>
+                    <input type="text" id="input_1" class="form-control input-sm" placeholder="Enter the Number(nterms) :"><br>
                     <button class="btn btn-default" id="btn_1">Submit</button><br>
                     <button class="btn btn-primary" id="btn_2">Start</button>
                     <button class="btn btn-primary" id="btn_3">Reset</button>
@@ -414,29 +403,36 @@
         <div class="block3">
             <div class="header2">Step Execute</div><br><br>
             <div class="pre">
-                <div class="step1" id="step" style="display:none;text-align:left;"><b>
-
-		<p id="1">for num in range(start, end + 1):</p>
-		<p id="2" style="padding-left:10px;">  factorial = 1</p>
-		<p id="3" style="padding-left:20px;">if num < 0:</p>
-		<p id="4"style="padding-left:30px;">  print("Factorial for negative numbers does not exist!!!")</p>
-		<p id="5" style="padding-left:20px;">elif num == 0:</p>
-		<p id="6" style="padding-left:30px;">print("The factorial of the Number is :")</p>
-		<p id="7" style="padding-left:20px;">else:</p>
-		<p id="8" style="padding-left:30px;">for i in range(1,num + 1):</p>
-		<p id="9" style="padding-left:40px;">factorial = factorial*i</p>
-		<p id="10" style="padding-left:30px;">print(The Factorial of the Number is :,num)</p></b>
+                <div class="step1" id="step1" style="display:none;text-align:left;"><b>
+		<p id="f1">n1 = 0</p>
+		<p id="f2">n2 = 1</p>
+		<p id="f3">count = 0</p>
+		<p id="f4">if nterms <= 0:</p>
+		<p id="f5" style="padding-left:10px;">print("Please enter a positive integer")</p>
+		<p id="f6">elif nterms == 1:</p>
+		<p id="f7" style="padding-left:10px;">print("Fibonacci sequence upto",nterms,":")</p>
+		<p id="f8" style="padding-left:10px;">print(n1)</p>
+		<p id="f9">else:</p>
+		<p id="f10" style="padding-left:10px;">print("Fibonacci sequence upto",nterms,":")</p>
+    <p id="f11" style="padding-left:10px;">while count < nterms:</p>
+    <p id="f12" style="padding-left:20px;">print(n1,end=' , ')</p>
+    <p id="f13" style="padding-left:20px;">nth = n1 + n2</p>
+    <p id="f14" style="padding-left:20px;">n1 = n2</p>
+    <p id="f15" style="padding-left:20px;">n2 = nth</p>
+    <p id="f16" style="padding-left:20px;">count += 1</p>
+</b>
                 </div>
             </div>
         </div>
+
         <div class="block4">
             <div class="header3">Result</div>
-            <p id="res_1" style="display:none;">The Factorial of the Number is :</p>
+            <p id="res_1" style="display:none;">Fibonacci sequence upto nterms is :</p>
             <p id="res_2"></p>
         </div>
     </div>
     <br><br>
-    <script src="factorial.js"></script>
+    <script src="fibonacci.js"></script>
 </body>
 
 </html>
