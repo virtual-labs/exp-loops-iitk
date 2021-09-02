@@ -1,4 +1,4 @@
-The execution of programming language codes is done by a compiler. A compiler is given a set of codes or rather a sequence of codes that perform a desired task. The task may or may not be repetitive but the compiler is smart enough to process it.Such repetitive code is known as a 'loop'.<br>
+The execution of programming language codes is done by a compiler. A compiler is given a set of codes or rather a sequence of codes that perform a desired task. The task may or may not be repetitive but the compiler is smart enough to process it. Such repetitive code is known as a 'loop'.<br>
 Loop is a sequential set of instructions which gets executed multiple times to reduce minimize the repetition of code.<br>
 In Python, we have two types of loops :<br>
 i. for loop<br>
@@ -34,6 +34,7 @@ hello geek<br>
 hello geek<br>
 ..........<br><br>
 Nested loops :<br><br>
+A nested loop is an inner loop in the loop body of the outer loop. The inner or outer loop can be any type, such as a while loop or for loop. For example, the outer for loop can contain a while loop and vice versa<br><br>
 Program:<br><br>
 <img src="images/img4.PNG"><br><br>
 Output:<br><br>
