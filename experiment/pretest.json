@@ -6,7 +6,7 @@
 		"c": "list",
 		"d": "String"
 	},
-	"correctAnswer": "c"
+	"correctAnswer": "a"
 }, {
 	"question": "Which do we access key or the value while looping through a dictionary?",
 	"answers": {
@@ -15,7 +15,7 @@
 		"c": "key and value in list format",
 		"d": "value"
 	},
-	"correctAnswer": "d"
+	"correctAnswer": "b"
 },
 {
 	"question": "Which of the following function returns a randomly selected element from range?",
