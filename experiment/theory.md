@@ -15,8 +15,7 @@ Output : <br>
 0<br>
 1<br>
 2<br>
-3<br>
-4<br><br>
+3<br><br>
 <b>'While' loop :</b><br><br>
 Syntax : <br><br>while expression:<br>
 statements<br><br>
