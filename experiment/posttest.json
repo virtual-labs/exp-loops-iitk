@@ -6,7 +6,7 @@
 		"c": "max()",
 		"d": "divmod()"
 	},
-	"correctAnswer": "b"
+	"correctAnswer": "a"
 }, {
 	"question": "2.What will be the output of the following code?\nfor i in ''.join(reversed(list('virtual'))):\n\tprint(i)",
 	"answers": {
@@ -25,5 +25,5 @@
 		"c": "None",
 		"d": "d c b a"
 	},
-	"correctAnswer": "d"
+	"correctAnswer": "b"
 }]

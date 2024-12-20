@@ -58,7 +58,7 @@ btn_2.onclick = function(){
       document.getElementById("6").style.color = "red";
       if(parseInt(input_1.value) == 0 ){
         document.getElementById("res_1").style.display = "block";
-        document.getElementById("res_2").innerHTML = n;
+        document.getElementById("res_2").innerHTML = 0;
           alert('Program Completed !!');
       }
       else{
