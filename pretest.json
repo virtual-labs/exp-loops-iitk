@@ -1,0 +1,39 @@
+[{
+	"question": "1.What data type does the range() function generate?:",
+	"answers": {
+		"a": "int",
+		"b": "float",
+		"c": "list",
+		"d": "String"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Which do we access key or the value while looping through a dictionary?",
+	"answers": {
+		"a": "key",
+		"b": "key and value in tuple format",
+		"c": "key and value in list format",
+		"d": "value"
+	},
+	"correctAnswer": "b"
+},
+{
+	"question": "Which of the following function returns a randomly selected element from range?",
+	"answers": {
+		"a": "choice(seq)",
+		"b": "randrange([start,stop,step])",
+		"c": "random()",
+		"d": "seed()"
+	},
+	"correctAnswer": "b"
+},
+{
+	"question": "Which of the following keyword is a valid placeholder for body of the function ?",
+	"answers": {
+		"a": "continue",
+		"b": "break",
+		"c": "pass",
+		"d": "body"
+	},
+	"correctAnswer": "c"
+}]
