@@ -6,7 +6,7 @@
 		"c": "list",
 		"d": "String"
 	},
-	"correctAnswer": "a"
+	"correctAnswer": "c"
 }, {
 	"question": "Which do we access key or the value while looping through a dictionary?",
 	"answers": {
