@@ -27,8 +27,7 @@ else if(parseInt(input_1.value) <= 0 || parseInt(input_2.value) <= 0){
 else if(parseInt(input_1.value) >= parseInt(input_2.value)){
     alert("Please enter a valid range!");
 }
-    }
-  else{
+  else {
   document.getElementById('step').style.display = "block";
   document.getElementById("btn_1").disabled = true;
   document.getElementById("btn_2").disabled = false;
