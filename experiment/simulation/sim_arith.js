@@ -21,10 +21,13 @@ btn_1.onclick = function(){
   else if(isNaN(input_1.value) || isNaN(input_2.value)){
     alert("!!!!Only Integers are Allowed");
   }
-  else if(input_1.value >= input_2.value){
-      alert('Please Input Valid Input!!');
-    }
-  else{
+else if(parseInt(input_1.value) <= 0 || parseInt(input_2.value) <= 0){
+    alert("Only positive integers are allowed!");
+}
+else if(parseInt(input_1.value) >= parseInt(input_2.value)){
+    alert("Please enter a valid range!");
+}
+  else {
   document.getElementById('step').style.display = "block";
   document.getElementById("btn_1").disabled = true;
   document.getElementById("btn_2").disabled = false;

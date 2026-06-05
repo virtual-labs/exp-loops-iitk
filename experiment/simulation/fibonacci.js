@@ -21,11 +21,19 @@ btn_1.onclick = function(){
   else if(isNaN(input_1.value)){
     alert("!!!!Only Integers are Allowed");
   }
-  else{
+  // else{
+  //   document.getElementById('step1').style.display = "block";
+  //   document.getElementById('btn_1').disabled = true;
+  //   document.getElementById('btn_2').disabled = false;
+  //   }
+  else if(parseInt(input_1.value) < 0 || parseInt(input_1.value) > 100){
+    alert("Please enter a number between 0 and 100 only!");
+}
+else{
     document.getElementById('step1').style.display = "block";
     document.getElementById('btn_1').disabled = true;
     document.getElementById('btn_2').disabled = false;
-    }
+}
   }
 
 //Global Variable to Permanently Store the Counter for the Array

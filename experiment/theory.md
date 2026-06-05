@@ -30,8 +30,8 @@ Hello people<br><br>
 Program:<br><br>
 <img src="images/img2.PNG"><br><br>
 Output:<br><br>
-hello geek<br>
-hello geek<br>
+Hello Geek<br>
+Hello Geek<br>
 ..........<br><br>
 Nested loops :<br><br>
 A nested loop is an inner loop in the loop body of the outer loop. The inner or outer loop can be any type, such as a while loop or for loop. For example, the outer for loop can contain a while loop and vice versa<br><br>
